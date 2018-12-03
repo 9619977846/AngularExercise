@@ -1,0 +1,51 @@
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0.8em 0;
+  padding: 0;
+}
+.cards-set {
+  font-size: 0;
+}
+.card {
+  display: inline-block;
+  margin: 8px;
+  width: 250px;
+  min-height: 280px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.card .heading {
+  position: relative;
+  height: 120px;
+  color: #ffffff;
+  background-color: rgb(103, 92, 91);
+}
+.card .heading h1 {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  font-size: 24px;
+}
+.card .content {
+  padding: 16px;
+}
+.card-container-right{
+  display: inline;
+  float: right;
+  padding: 3px 12px;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.card-container-left{
+  display: inline;
+  font-size: 18px;
+  font-weight: 500;
+}
+

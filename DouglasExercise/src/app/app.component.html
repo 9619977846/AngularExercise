@@ -1,0 +1,16 @@
+
+
+<div class="form form-inline">
+    <div class="row form-check"> Filter :
+      <label  *ngFor="let filterItem of filterItems; let i = index;" class="form-check-label {{filterItem.value}}">
+        <input type="checkbox" class="form-check-input" [(ngModel)]="filterItem.checked" [value]="filterItem.value"> {{filterItem.value}}
+      </label>
+    </div>
+  </div>
+
+<div class="card-deck-container">
+<app-card *ngFor="let product of productsDisplayed | filter: { type: ''} : checked() : false" [product]="product" class="card-item"></app-card>
+
+
+
+</div>

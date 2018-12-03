@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+.mat-card-header-text{
+  width: 100% !important;
+  margin: 0 !important;
+  padding-bottom: 20px;
+}
+
+.mat-card {
+  min-height: 180px;
+}
+.vegetable {
+  background: green;
+}
+
+.fruit {
+  background: orange;
+}
+
+.meat {
+  background: red;
+}

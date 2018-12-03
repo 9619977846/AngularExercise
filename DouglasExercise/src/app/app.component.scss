@@ -1,0 +1,35 @@
+.card-deck-container{
+  display: flex;
+  flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -ms-box-orient:horizontal;
+  -moz-box-orient:horizontal;
+  -webkit-box-direction: normal;
+  -ms-box-direction: normal;
+  -moz-box-direction: normal;
+
+  flex: 1 1 1;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  -ms-box-flex: 1;
+  -moz-box-flex: 1;
+
+
+  position: relative;
+  border-radius: 2px;
+  padding: 25px;
+  margin: 10px 10px 10px 10px;
+
+}
+
+.form-check-label {
+  padding: 3px;
+  border-radius: 6px;
+  color:white;
+  margin: 0 5px;
+  padding-right: 10px;
+}
+
+.form-check {
+  font-size: 14px;
+}

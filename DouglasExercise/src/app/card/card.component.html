@@ -1,0 +1,24 @@
+
+
+<div class="card">
+    <div class="heading"></div>
+    <mat-card>
+
+        <mat-card-header>
+
+
+         <mat-card-title class="card-container-left"> {{product.name}}</mat-card-title>
+         <mat-card-title class="card-container-right {{product.type}}"> {{product.type}}</mat-card-title>
+        </mat-card-header>
+
+
+
+        <mat-card-content>
+          <div class="card-text-content">
+
+            <app-read-more [text]="product.description"></app-read-more>
+          </div>
+        </mat-card-content>
+
+      </mat-card>
+</div>
